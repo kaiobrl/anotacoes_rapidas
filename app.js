@@ -57,8 +57,8 @@ function renderNotes() {
         // show some fall back elements
         notesContainer.innerHTML = `
         <div class="empty-notes">
-            <h2>No notes yet</h2>
-            <p>Click the button below to create your first note.</p>
+            <h2>Nenhuma nota ainda</h2>
+            <p>Clique no botão abaixo para criar sua primeira nota.</p>
             <button class="btn" onclick="openNoteDialog()">+ adicione sua primeira nota</button>
         </div>
         `
